@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+		setlocale(0, "");
+		int  number;
+		
+	
+			cout << "[1]День1\n";
+			cout << "[2]День2\n";
+			cout << "[3]День3\n";
+			cout << "[4]День4\n";
+			cout << "[5]День5\n";
+			cout << "[6]День6\n";
+			cout << "[7]День7\n";
+			cin >> number;
+		
+			switch (number) {
+			case 1:
+				cout << "кс 1.6";
+				break;
+			case 2:
+				cout << "работа";
+				break;
+			case 3:
+				cout << "учеба";
+				break;
+			case 4:
+				cout << "пара2";
+				break;
+			case 5:
+				cout << "кс 1.6";
+				break;
+			case 6:
+				cout << "сон";
+				break;
+			case 7:
+				cout << "сон";
+			default:
+				break;
+			}
+			return 0;
+		}
